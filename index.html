@@ -6,8 +6,7 @@
    <link rel= "stylesheet" href="style.css">
  </head>
  <body>
-  <audio id="myAudio" controls>
-
+  <audio id="myAudio" autoplay="autoplay" controls>
     <source src="summertime.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
@@ -37,9 +36,9 @@
              heart.remove();
           },1000)
          })
-         var x = document.getElementById('myAudio');
-         x.autoplay = true;
-         x.load();
+         window.onload = function(){
+          document.getElementById('myAudio').play();
+         }
       </script>  
  </body>
  </html>
