@@ -282,3 +282,4 @@ var ParticlePool = (function () {
     render();
   }, 10);
 })(document.getElementById("pinkboard"));
+document.getElementById("player").play();
