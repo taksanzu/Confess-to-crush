@@ -124,7 +124,7 @@ class App extends React.Component {
       this.setState({
         cursorGrabbed: false,
       });
-    }, 5000);
+    }, 3000);
   }
 
   handleButtonClicked() {
