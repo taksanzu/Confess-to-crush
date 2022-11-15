@@ -9,9 +9,9 @@ function myFunction() {
   var x = document.createElement("AUDIO");
 
   if (x.canPlayType("audio/mpeg")) {
-    x.setAttribute("src", "summertime.mp3");
+    x.setAttribute("src", "../Media/summertime.mp3");
   } else {
-    x.setAttribute("src", "summertime.ogg");
+    x.setAttribute("src", "../Media/summertime.ogg");
   }
   document.body.appendChild(x);
   x.play();
