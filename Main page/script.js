@@ -160,7 +160,7 @@ class App extends React.Component {
           className: "container",
         },
         React.createElement("img", {
-          src: "../Media/heart.png",
+          src: "Confess to crush/Media/heart.png",
         }),
         React.createElement("h1", null, "Hi bạn yêu của mình"),
         React.createElement(
