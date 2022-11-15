@@ -162,11 +162,11 @@ class App extends React.Component {
         React.createElement("img", {
           src: "https://www.kindpng.com/picc/m/120-1207838_red-hearts-tumblr-png-transparent-png.png",
         }),
-        React.createElement("h1", null, "Hi bạn yêu của mình"),
+        React.createElement("h2", null, "Hi bạn iu của mình!"),
         React.createElement(
-          "p",
+          "h1",
           null,
-          "Bạn có đồng ý làm người yêu của mình ko!"
+          "Bạn đồng ý làm người iu của mình ko !!!"
         ),
         React.createElement(
           "p",
