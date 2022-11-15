@@ -167,6 +167,11 @@ class App extends React.Component {
           "p",
           null,
           "Bạn có đồng ý làm người yêu của mình ko!"
+        ),
+        React.createElement(
+          "p",
+          null,
+          "(Web ko dành cho mấy bạn xài mobile nên thông cảm nha ahihi!!!)"
         )
       ),
 
