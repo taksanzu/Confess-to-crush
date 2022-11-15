@@ -171,7 +171,7 @@ class App extends React.Component {
         React.createElement(
           "p",
           null,
-          "(Web ko dành cho mấy bạn xài mobile nên thông cảm nha ahihi!!!)"
+          "(Web ko dành cho mấy bạn xài mobile nên thông cảm nha ahihi!!)"
         )
       ),
 
