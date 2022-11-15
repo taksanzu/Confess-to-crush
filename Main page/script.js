@@ -160,7 +160,7 @@ class App extends React.Component {
           className: "container",
         },
         React.createElement("img", {
-          src: "Confess to crush/Media/heart.png",
+          src: "./Media/heart.png",
         }),
         React.createElement("h1", null, "Hi bạn yêu của mình"),
         React.createElement(
@@ -188,7 +188,7 @@ class App extends React.Component {
         React.createElement(
           "a",
           {
-            href: "../Second page/index.html",
+            href: "./Second page/index.html",
           },
           "mình đồng ý"
         )
