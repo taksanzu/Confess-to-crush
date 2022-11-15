@@ -188,7 +188,7 @@ class App extends React.Component {
         React.createElement(
           "a",
           {
-            href: "../Second page/index.html",
+            href: "./Second page/index.html",
           },
           "mình đồng ý"
         )
